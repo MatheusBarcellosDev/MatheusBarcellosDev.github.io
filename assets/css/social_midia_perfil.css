@@ -1,0 +1,49 @@
+.social_midia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 225px;
+    
+}
+
+.social_midia h3{
+    
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #fff
+}
+
+.social_midia ul {
+    display: flex;
+}
+
+.social_midia ul li{
+    padding: 10px;
+}
+
+.goal p{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+.separator_end{
+    margin: 0 auto;
+    width: 300px;
+    border-bottom: 1px solid #fff;
+}
+
+.card_end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    
+}

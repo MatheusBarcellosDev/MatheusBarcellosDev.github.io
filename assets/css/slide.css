@@ -1,0 +1,52 @@
+#slide1,
+#slide2,
+#slide3 {
+    display: none;
+}
+
+#slide1:checked~.s1 {
+    margin-left: 235px;
+}
+
+#slide2:checked~.s1 {
+    margin-left: -1765px;
+}
+
+#slide3:checked~.s1 {
+    margin-left: -11765px;
+}
+
+.slides {
+ 
+    display: flex;
+    width: 300%;
+   
+
+}
+
+
+.selector {
+    width: 50px;
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    transition: 0.8s
+    
+}
+
+.selector:hover{
+    background-color: #fff;
+}
+
+.navigation {
+    
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 1rem;
+
+
+}
