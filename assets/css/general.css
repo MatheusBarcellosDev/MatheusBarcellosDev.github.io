@@ -5,6 +5,8 @@
 body {
     font-family: 'Gemunu Libre', sans-serif;
     background-image: linear-gradient(to right, #030505, #091616, #0d2220, #0d2e28, #0f3b30, #134738, #185340, #1e5f48, #256e54, #2b7c5f, #328c6c, #399b78);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 ul,li{
